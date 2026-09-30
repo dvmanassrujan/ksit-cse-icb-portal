@@ -1,0 +1,1206 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "hussain",
+      "password_hash": "password123",
+      "role": "student",
+      "name": "Hussain Basha",
+      "email": "hussain.basha@ksit.edu.in",
+      "phone": "+91 98450 11223",
+      "avatar_url": "/assets/avatars/student1.png"
+    },
+    {
+      "id": 2,
+      "username": "manas",
+      "password_hash": "password123",
+      "role": "student",
+      "name": "D V Manas Srujan",
+      "email": "manas.srujan@ksit.edu.in",
+      "phone": "+91 98450 22334",
+      "avatar_url": "/assets/avatars/student2.png"
+    },
+    {
+      "id": 3,
+      "username": "pavani",
+      "password_hash": "password123",
+      "role": "student",
+      "name": "M Pavani Gowda",
+      "email": "pavani.gowda@ksit.edu.in",
+      "phone": "+91 98450 33445",
+      "avatar_url": "/assets/avatars/student3.png"
+    },
+    {
+      "id": 4,
+      "username": "purvi",
+      "password_hash": "password123",
+      "role": "student",
+      "name": "Purvi B V",
+      "email": "purvi.bv@ksit.edu.in",
+      "phone": "+91 98450 44556",
+      "avatar_url": "/assets/avatars/student4.png"
+    },
+    {
+      "id": 5,
+      "username": "prof_sharma",
+      "password_hash": "password123",
+      "role": "teacher",
+      "name": "Prof. R. Sharma",
+      "email": "r.sharma@ksit.edu.in",
+      "phone": "+91 98450 55667",
+      "avatar_url": "/assets/avatars/teacher1.png"
+    },
+    {
+      "id": 6,
+      "username": "dr_ramesh",
+      "password_hash": "password123",
+      "role": "teacher",
+      "name": "Dr. S. Ramesh",
+      "email": "s.ramesh@ksit.edu.in",
+      "phone": "+91 98450 66778",
+      "avatar_url": "/assets/avatars/teacher2.png"
+    },
+    {
+      "id": 7,
+      "username": "prof_khan",
+      "password_hash": "password123",
+      "role": "teacher",
+      "name": "Prof. A. Khan",
+      "email": "a.khan@ksit.edu.in",
+      "phone": "+91 98450 77889",
+      "avatar_url": "/assets/avatars/teacher3.png"
+    },
+    {
+      "id": 8,
+      "username": "dr_kumar",
+      "password_hash": "password123",
+      "role": "department",
+      "name": "Dr. R. Kumar",
+      "email": "hod.cse@ksit.edu.in",
+      "phone": "+91 98450 88990",
+      "avatar_url": "/assets/avatars/hod.png"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "usn": "1KS25IC023",
+      "name": "Hussain Basha",
+      "year": "1st Year",
+      "semester": 1,
+      "section": "A",
+      "department": "CSE (ICB)",
+      "cgpa": 8.12,
+      "present_days": 46,
+      "total_days": 52,
+      "attendance_pct": 88,
+      "blood_group": "O+",
+      "mentor_name": "Prof. R. Sharma"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "usn": "1KS25IC015",
+      "name": "D V Manas Srujan",
+      "year": "1st Year",
+      "semester": 1,
+      "section": "A",
+      "department": "CSE (ICB)",
+      "cgpa": 8.45,
+      "present_days": 48,
+      "total_days": 52,
+      "attendance_pct": 92,
+      "blood_group": "B+",
+      "mentor_name": "Prof. R. Sharma"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "usn": "1KS25IC033",
+      "name": "M Pavani Gowda",
+      "year": "1st Year",
+      "semester": 1,
+      "section": "A",
+      "department": "CSE (ICB)",
+      "cgpa": 8.3,
+      "present_days": 49,
+      "total_days": 52,
+      "attendance_pct": 94,
+      "blood_group": "A+",
+      "mentor_name": "Prof. R. Sharma"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "usn": "1KS25IC045",
+      "name": "Purvi B V",
+      "year": "1st Year",
+      "semester": 1,
+      "section": "A",
+      "department": "CSE (ICB)",
+      "cgpa": 8.6,
+      "present_days": 51,
+      "total_days": 52,
+      "attendance_pct": 98,
+      "blood_group": "AB+",
+      "mentor_name": "Prof. R. Sharma"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "user_id": 5,
+      "employee_id": "KSIT-FAC-014",
+      "name": "Prof. R. Sharma",
+      "designation": "Assistant Professor",
+      "department": "CSE (ICB)",
+      "qualification": "M.Tech (CSE), Ph.D.",
+      "cabin_no": "B-304",
+      "total_students": 120,
+      "classes_today": 4,
+      "pending_evaluations": 18,
+      "notices_count": 2
+    },
+    {
+      "id": 2,
+      "user_id": 6,
+      "employee_id": "KSIT-FAC-008",
+      "name": "Dr. S. Ramesh",
+      "designation": "Associate Professor",
+      "department": "Mathematics",
+      "qualification": "M.Sc., Ph.D.",
+      "cabin_no": "A-201",
+      "total_students": 120,
+      "classes_today": 3,
+      "pending_evaluations": 8,
+      "notices_count": 1
+    },
+    {
+      "id": 3,
+      "user_id": 7,
+      "employee_id": "KSIT-FAC-019",
+      "name": "Prof. A. Khan",
+      "designation": "Assistant Professor",
+      "department": "Physics",
+      "qualification": "M.Sc., M.Phil.",
+      "cabin_no": "A-205",
+      "total_students": 120,
+      "classes_today": 2,
+      "pending_evaluations": 5,
+      "notices_count": 1
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "code": "MAT101",
+      "name": "Mathematics",
+      "semester": 1,
+      "credits": 4,
+      "faculty_name": "Dr. S. Ramesh",
+      "classes_conducted": 20,
+      "attendance_rate": 93
+    },
+    {
+      "id": 2,
+      "code": "PHY102",
+      "name": "Physics",
+      "semester": 1,
+      "credits": 4,
+      "faculty_name": "Prof. A. Khan",
+      "classes_conducted": 20,
+      "attendance_rate": 91
+    },
+    {
+      "id": 3,
+      "code": "CSE103",
+      "name": "Programming in C",
+      "semester": 1,
+      "credits": 4,
+      "faculty_name": "Prof. R. Sharma",
+      "classes_conducted": 20,
+      "attendance_rate": 94
+    },
+    {
+      "id": 4,
+      "code": "ENG104",
+      "name": "Engineering Graphics",
+      "semester": 1,
+      "credits": 3,
+      "faculty_name": "Prof. R. Sharma",
+      "classes_conducted": 20,
+      "attendance_rate": 90
+    },
+    {
+      "id": 5,
+      "code": "CSE301",
+      "name": "Data Structures & Algorithms",
+      "semester": 3,
+      "credits": 4,
+      "faculty_name": "Dr. L. Priya",
+      "classes_conducted": 22,
+      "attendance_rate": 89
+    },
+    {
+      "id": 6,
+      "code": "CSE302",
+      "name": "DBMS",
+      "semester": 3,
+      "credits": 4,
+      "faculty_name": "Prof. K. Nanda",
+      "classes_conducted": 22,
+      "attendance_rate": 92
+    },
+    {
+      "id": 7,
+      "code": "CSE401",
+      "name": "Cybersecurity",
+      "semester": 7,
+      "credits": 3,
+      "faculty_name": "Dr. M. Fazil",
+      "classes_conducted": 18,
+      "attendance_rate": 95
+    }
+  ],
+  "timetable": [
+    {
+      "id": 1,
+      "semester": 1,
+      "day_of_week": "Monday",
+      "period_no": 1,
+      "period_label": "Period 1",
+      "time_slot": "08:30 - 09:25 AM",
+      "subject_name": "Mathematics",
+      "room_no": "B-Block",
+      "is_break": false,
+      "code": "P1"
+    },
+    {
+      "id": 2,
+      "semester": 1,
+      "day_of_week": "Monday",
+      "period_no": 2,
+      "period_label": "Period 2",
+      "time_slot": "09:25 - 10:20 AM",
+      "subject_name": "Physics",
+      "room_no": "B-Block",
+      "is_break": false,
+      "code": "P2"
+    },
+    {
+      "id": 3,
+      "semester": 1,
+      "day_of_week": "Monday",
+      "period_no": 0,
+      "period_label": "Tea Break",
+      "time_slot": "10:20 - 10:35 AM",
+      "subject_name": "Tea Break",
+      "room_no": "-",
+      "is_break": true,
+      "code": "BREAK"
+    },
+    {
+      "id": 4,
+      "semester": 1,
+      "day_of_week": "Monday",
+      "period_no": 3,
+      "period_label": "Period 3",
+      "time_slot": "10:35 - 11:30 AM",
+      "subject_name": "Programming in C",
+      "room_no": "B-Block",
+      "is_break": false,
+      "code": "P3"
+    },
+    {
+      "id": 5,
+      "semester": 1,
+      "day_of_week": "Monday",
+      "period_no": 4,
+      "period_label": "Period 4",
+      "time_slot": "11:30 - 12:25 PM",
+      "subject_name": "Engineering Graphics",
+      "room_no": "B-Block",
+      "is_break": false,
+      "code": "P4"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "subject_id": 1,
+      "subject_name": "Mathematics",
+      "classes_held": 20,
+      "classes_attended": 19,
+      "percentage": 95,
+      "status": "Good (>75%)"
+    },
+    {
+      "id": 2,
+      "student_id": 1,
+      "subject_id": 2,
+      "subject_name": "Physics",
+      "classes_held": 20,
+      "classes_attended": 18,
+      "percentage": 90,
+      "status": "Good (>75%)"
+    },
+    {
+      "id": 3,
+      "student_id": 1,
+      "subject_id": 3,
+      "subject_name": "Programming in C",
+      "classes_held": 20,
+      "classes_attended": 19,
+      "percentage": 95,
+      "status": "Good (>75%)"
+    },
+    {
+      "id": 4,
+      "student_id": 1,
+      "subject_id": 4,
+      "subject_name": "Engineering Graphics",
+      "classes_held": 20,
+      "classes_attended": 17,
+      "percentage": 85,
+      "status": "Good (>75%)"
+    }
+  ],
+  "study_materials": [
+    {
+      "id": 1,
+      "title": "Engineering Mathematics - Module 1 Calculus & Differential Equations",
+      "description": "Comprehensive lecture notes, step-by-step problem sets, and VTU exemplar solutions.",
+      "category": "notes",
+      "subject_id": 1,
+      "subject_name": "Mathematics",
+      "semester": 1,
+      "file_url": "/downloads/maths_module1.pdf",
+      "external_url": null,
+      "file_size": "4.2 MB",
+      "file_type": "PDF",
+      "uploaded_by": "Dr. S. Ramesh",
+      "downloads_count": 128,
+      "created_at": "2025-09-20"
+    },
+    {
+      "id": 2,
+      "title": "Programming in C - Pointers, Memory & Data Structures Slide Deck",
+      "description": "Structured programming concepts, pointers, memory allocation, arrays, structs, and recursion.",
+      "category": "notes",
+      "subject_id": 3,
+      "subject_name": "Programming in C",
+      "semester": 1,
+      "file_url": "/downloads/c_programming_pointers.pdf",
+      "external_url": null,
+      "file_size": "3.8 MB",
+      "file_type": "PDF",
+      "uploaded_by": "Prof. R. Sharma",
+      "downloads_count": 194,
+      "created_at": "2025-09-22"
+    },
+    {
+      "id": 3,
+      "title": "Applied Engineering Physics - Optical Fibers, Lasers & Wave Optics",
+      "description": "Complete unit notes with lab practical guides, numerical problem sets, and derivation sheets.",
+      "category": "notes",
+      "subject_id": 2,
+      "subject_name": "Physics",
+      "semester": 1,
+      "file_url": "/downloads/physics_unit2.pdf",
+      "external_url": null,
+      "file_size": "2.9 MB",
+      "file_type": "PDF",
+      "uploaded_by": "Prof. A. Khan",
+      "downloads_count": 88,
+      "created_at": "2025-09-23"
+    },
+    {
+      "id": 4,
+      "title": "CSE (ICB) 2025-26 Scheme & Detailed Syllabus Curriculum Document",
+      "description": "Official autonomous syllabus for 1st Year to 4th Year Computer Science & Engineering (ICB).",
+      "category": "syllabus",
+      "subject_id": 3,
+      "subject_name": "Computer Science (ICB)",
+      "semester": 1,
+      "file_url": "/downloads/cse_icb_curriculum_2025.pdf",
+      "external_url": null,
+      "file_size": "1.5 MB",
+      "file_type": "PDF",
+      "uploaded_by": "HOD - CSE (ICB)",
+      "downloads_count": 312,
+      "created_at": "2025-09-15"
+    },
+    {
+      "id": 5,
+      "title": "VTU Semester-End Examination Question Papers Bundle (2021 - 2024)",
+      "description": "Solved previous year examination question papers with model answers for 1st Year subjects.",
+      "category": "pyq",
+      "subject_id": 1,
+      "subject_name": "All 1st Sem Subjects",
+      "semester": 1,
+      "file_url": "/downloads/pyq_bundle_sem1.pdf",
+      "external_url": null,
+      "file_size": "8.6 MB",
+      "file_type": "PDF",
+      "uploaded_by": "Prof. R. Sharma",
+      "downloads_count": 246,
+      "created_at": "2025-09-18"
+    },
+    {
+      "id": 6,
+      "title": "Research Paper: Modern Optimization in Federated Deep Learning Systems",
+      "description": "IEEE curated research survey paper recommended for student technical seminars and CBP literature.",
+      "category": "research_paper",
+      "subject_id": 3,
+      "subject_name": "Computer Science",
+      "semester": 1,
+      "file_url": "/downloads/federated_dl_survey.pdf",
+      "external_url": "https://ieeexplore.ieee.org",
+      "file_size": "1.2 MB",
+      "file_type": "PDF",
+      "uploaded_by": "Prof. R. Sharma",
+      "downloads_count": 54,
+      "created_at": "2025-09-24"
+    },
+    {
+      "id": 7,
+      "title": "NPTEL: Problem Solving through Programming in C (IIT Kharagpur)",
+      "description": "Government of India 12-week certification course with weekly assignments and VTU credit mapping.",
+      "category": "online_course",
+      "subject_id": 3,
+      "subject_name": "Programming in C",
+      "semester": 1,
+      "file_url": null,
+      "external_url": "https://nptel.ac.in/courses/106105171",
+      "file_size": "Online",
+      "file_type": "LINK",
+      "uploaded_by": "Prof. R. Sharma",
+      "downloads_count": 142,
+      "created_at": "2025-09-10"
+    },
+    {
+      "id": 8,
+      "title": "AWS Certified Cloud Practitioner - Department Student Study Track",
+      "description": "Cloud fundamentals curriculum with hands-on labs and examination vouchers for CSE (ICB) students.",
+      "category": "certification",
+      "subject_id": 3,
+      "subject_name": "Cloud Computing",
+      "semester": 1,
+      "file_url": null,
+      "external_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+      "file_size": "Online",
+      "file_type": "LINK",
+      "uploaded_by": "HOD - CSE (ICB)",
+      "downloads_count": 115,
+      "created_at": "2025-09-12"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "title": "Assignment 1: Pointer Manipulation & Dynamic Memory in C",
+      "subject_name": "Programming in C",
+      "subject_id": 3,
+      "semester": 1,
+      "faculty_name": "Prof. R. Sharma",
+      "description": "Implement dynamic 2D matrices, pointer arithmetic, and struct serialization without stdlib string helpers.",
+      "created_date": "2025-09-20",
+      "deadline": "2025-10-04",
+      "max_marks": 20,
+      "status": "submitted",
+      "submitted_date": "2025-09-27",
+      "marks_obtained": null,
+      "feedback": "Under review by Prof. Sharma"
+    },
+    {
+      "id": 2,
+      "title": "Internal Assignment: Differential Equations & Applications",
+      "subject_name": "Mathematics",
+      "subject_id": 1,
+      "semester": 1,
+      "faculty_name": "Dr. S. Ramesh",
+      "description": "Complete assignment booklet on Bernoulli differential equations, orthogonal trajectories, and Cauchy-Euler equations.",
+      "created_date": "2025-09-22",
+      "deadline": "2025-10-06",
+      "max_marks": 20,
+      "status": "due_soon",
+      "submitted_date": null,
+      "marks_obtained": null,
+      "feedback": null
+    },
+    {
+      "id": 3,
+      "title": "Physics Lab Unit 2: Optical Fiber & Laser Numerical Report",
+      "subject_name": "Physics",
+      "subject_id": 2,
+      "semester": 1,
+      "faculty_name": "Prof. A. Khan",
+      "description": "Submit laboratory report calculating numerical aperture, attenuation loss per kilometer, and refractive index profile.",
+      "created_date": "2025-09-25",
+      "deadline": "2025-10-08",
+      "max_marks": 15,
+      "status": "pending",
+      "submitted_date": null,
+      "marks_obtained": null,
+      "feedback": null
+    }
+  ],
+  "assignment_submissions": [
+    {
+      "id": 1,
+      "assignment_id": 1,
+      "student_id": 1,
+      "student_name": "Hussain Basha",
+      "usn": "1KS25IC023",
+      "submission_date": "2025-09-27 15:30",
+      "submission_file": "hussain_assignment1.c",
+      "status": "submitted",
+      "marks_obtained": null,
+      "feedback": "Code compiles cleanly. Evaluating edge test cases."
+    }
+  ],
+  "examinations": [
+    {
+      "id": 1,
+      "title": "Internal Assessment Test 1: Mathematics",
+      "exam_type": "Internal Test 1",
+      "subject_name": "Mathematics",
+      "semester": 1,
+      "exam_date": "2025-10-02",
+      "time_slot": "10:00 AM - 12:00 PM",
+      "room_no": "B-Block Room 204",
+      "max_marks": 50,
+      "status": "Scheduled"
+    },
+    {
+      "id": 2,
+      "title": "Internal Assessment Test 1: Physics",
+      "exam_type": "Internal Test 1",
+      "subject_name": "Physics",
+      "semester": 1,
+      "exam_date": "2025-10-05",
+      "time_slot": "09:00 AM - 11:00 AM",
+      "room_no": "B-Block Room 204",
+      "max_marks": 50,
+      "status": "Scheduled"
+    },
+    {
+      "id": 3,
+      "title": "Maths Makeup Examination",
+      "exam_type": "Makeup Exam",
+      "subject_name": "Mathematics",
+      "semester": 1,
+      "exam_date": "2025-10-12",
+      "time_slot": "09:30 AM - 11:30 AM",
+      "room_no": "B-Block Room 201",
+      "max_marks": 50,
+      "status": "Scheduled"
+    }
+  ],
+  "exam_marks": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "subject_name": "Mathematics",
+      "exam_type": "Internal Test 1 (Mock)",
+      "marks_obtained": 44,
+      "max_marks": 50,
+      "grade": "A+"
+    },
+    {
+      "id": 2,
+      "student_id": 1,
+      "subject_name": "Physics",
+      "exam_type": "Internal Test 1 (Mock)",
+      "marks_obtained": 41.5,
+      "max_marks": 50,
+      "grade": "A"
+    },
+    {
+      "id": 3,
+      "student_id": 1,
+      "subject_name": "Programming in C",
+      "exam_type": "Internal Test 1 (Mock)",
+      "marks_obtained": 46,
+      "max_marks": 50,
+      "grade": "O"
+    },
+    {
+      "id": 4,
+      "student_id": 1,
+      "subject_name": "Engineering Graphics",
+      "exam_type": "Internal Test 1 (Mock)",
+      "marks_obtained": 42,
+      "max_marks": 50,
+      "grade": "A+"
+    }
+  ],
+  "notices": [
+    {
+      "id": 1,
+      "title": "Class Test Schedule - 1st Year CSE (ICB)",
+      "description": "Internal Assessment Test 1 timetable published for First Year CSE (ICB). All students must carry college ID cards.",
+      "category": "Exams",
+      "priority": "High",
+      "is_new": true,
+      "target_role": "student",
+      "date_posted": "28 Sep 2025",
+      "author": "HOD - CSE (ICB)"
+    },
+    {
+      "id": 2,
+      "title": "Library timings extended till 5 PM",
+      "description": "Central and department library study halls will remain open until 5:00 PM on all weekdays for reference and project work.",
+      "category": "General",
+      "priority": "Normal",
+      "is_new": false,
+      "target_role": "all",
+      "date_posted": "27 Sep 2025",
+      "author": "Central Library"
+    },
+    {
+      "id": 3,
+      "title": "Community Project Guidelines (AY 2025-26)",
+      "description": "All 1st Year CSE (ICB) teams must submit their problem statement, survey analysis, and portal wireframes by 10th October.",
+      "category": "CBP",
+      "priority": "High",
+      "is_new": false,
+      "target_role": "student",
+      "date_posted": "26 Sep 2025",
+      "author": "CBP Coordinator"
+    },
+    {
+      "id": 4,
+      "title": "Hostel Mess Menu - This Week",
+      "description": "Revised South Indian & North Indian vegetarian/non-vegetarian catering menu for October 2025 has been approved.",
+      "category": "Hostel",
+      "priority": "Normal",
+      "is_new": false,
+      "target_role": "student",
+      "date_posted": "25 Sep 2025",
+      "author": "Hostel Committee"
+    },
+    {
+      "id": 5,
+      "title": "Placement Training Session - Register Now",
+      "description": "Department Placement Cell invites all students for pre-placement coding aptitude training commencing this Saturday.",
+      "category": "Placement",
+      "priority": "Normal",
+      "is_new": false,
+      "target_role": "all",
+      "date_posted": "24 Sep 2025",
+      "author": "Training & Placement Cell"
+    },
+    {
+      "id": 6,
+      "title": "Department Faculty Meeting",
+      "description": "All faculty members are requested to assemble in Seminar Hall for NBA accreditation review and marks moderation.",
+      "category": "Faculty",
+      "priority": "High",
+      "is_new": true,
+      "target_role": "teacher",
+      "date_posted": "28 Sep 2025",
+      "author": "Dr. R. Kumar (HOD)"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Technical Talk - AI & ML",
+      "category": "Seminar",
+      "date_badge": {
+        "month": "OCT",
+        "day": "02"
+      },
+      "event_date": "2025-10-02",
+      "time_range": "10:00 AM - 12:00 PM",
+      "venue": "Seminar Hall",
+      "organizer": "CSE (ICB) Dept",
+      "description": "Distinguished industry lecture on Modern Large Language Models, Multi-Agent Systems, and practical deployment."
+    },
+    {
+      "id": 2,
+      "title": "Coding Contest",
+      "category": "Hackathon",
+      "date_badge": {
+        "month": "OCT",
+        "day": "05"
+      },
+      "event_date": "2025-10-05",
+      "time_range": "09:00 AM - 01:00 PM",
+      "venue": "Lab 3",
+      "organizer": "CSE Coding Club",
+      "description": "Speed programming competition on algorithmic thinking, dynamic arrays, and recursion."
+    },
+    {
+      "id": 3,
+      "title": "Maths Makeup Exam",
+      "category": "Exam",
+      "date_badge": {
+        "month": "OCT",
+        "day": "12"
+      },
+      "event_date": "2025-10-12",
+      "time_range": "09:30 AM - 11:30 AM",
+      "venue": "B-Block",
+      "organizer": "Academic Examination Cell",
+      "description": "Official makeup examination for eligible students."
+    },
+    {
+      "id": 4,
+      "title": "Workshop - Full Stack Development",
+      "category": "Workshop",
+      "date_badge": {
+        "month": "OCT",
+        "day": "12"
+      },
+      "event_date": "2025-10-12",
+      "time_range": "10:00 AM - 04:00 PM",
+      "venue": "Lab 1",
+      "organizer": "STACK X & CSE (ICB)",
+      "description": "Hands-on engineering workshop on Node.js, Express, MySQL and full-stack web applications."
+    }
+  ],
+  "survey_responses": [
+    {
+      "id": 1,
+      "code": "Q1",
+      "title": "Difficulty finding old study materials in WhatsApp",
+      "category": "Current Challenges",
+      "count": 51,
+      "total": 56,
+      "percentage": 91.07,
+      "impact": "Critical"
+    },
+    {
+      "id": 2,
+      "code": "Q2",
+      "title": "Important updates getting buried in group chats",
+      "category": "Current Challenges",
+      "count": 49,
+      "total": 56,
+      "percentage": 87.5,
+      "impact": "Critical"
+    },
+    {
+      "id": 3,
+      "code": "Q3",
+      "title": "Difficulty tracking subject-wise attendance",
+      "category": "Current Challenges",
+      "count": 44,
+      "total": 56,
+      "percentage": 78.57,
+      "impact": "High"
+    },
+    {
+      "id": 4,
+      "code": "Q4",
+      "title": "Lack of centralized PYQ papers & syllabus",
+      "category": "Current Challenges",
+      "count": 46,
+      "total": 56,
+      "percentage": 82.14,
+      "impact": "High"
+    },
+    {
+      "id": 5,
+      "code": "Q5",
+      "title": "Centralized study materials & PDF hub",
+      "category": "Proposed Features Usefulness",
+      "count": 53,
+      "total": 56,
+      "percentage": 94.64,
+      "impact": "Very High"
+    },
+    {
+      "id": 6,
+      "code": "Q6",
+      "title": "Subject-wise attendance tracking",
+      "category": "Proposed Features Usefulness",
+      "count": 48,
+      "total": 56,
+      "percentage": 85.71,
+      "impact": "Very High"
+    },
+    {
+      "id": 7,
+      "code": "Q7",
+      "title": "Assignment & deadline tracking",
+      "category": "Proposed Features Usefulness",
+      "count": 47,
+      "total": 56,
+      "percentage": 83.93,
+      "impact": "High"
+    },
+    {
+      "id": 8,
+      "code": "Q8",
+      "title": "Course & certification links",
+      "category": "Proposed Features Usefulness",
+      "count": 45,
+      "total": 56,
+      "percentage": 80.36,
+      "impact": "High"
+    },
+    {
+      "id": 9,
+      "code": "Q9_1",
+      "title": "Study Materials (Highest Priority)",
+      "category": "Feature Priorities",
+      "count": 48,
+      "total": 56,
+      "percentage": 85.7,
+      "impact": "Priority 1"
+    },
+    {
+      "id": 10,
+      "code": "Q9_2",
+      "title": "Attendance Tracking",
+      "category": "Feature Priorities",
+      "count": 41,
+      "total": 56,
+      "percentage": 73.2,
+      "impact": "Priority 2"
+    },
+    {
+      "id": 11,
+      "code": "Q9_3",
+      "title": "Previous-Year Question Papers",
+      "category": "Feature Priorities",
+      "count": 31,
+      "total": 56,
+      "percentage": 55.4,
+      "impact": "Priority 3"
+    },
+    {
+      "id": 12,
+      "code": "Q9_4",
+      "title": "Activities & Events Calendar",
+      "category": "Feature Priorities",
+      "count": 31,
+      "total": 56,
+      "percentage": 55.4,
+      "impact": "Priority 3"
+    },
+    {
+      "id": 13,
+      "code": "Q9_5",
+      "title": "Online Courses & Certifications",
+      "category": "Feature Priorities",
+      "count": 31,
+      "total": 56,
+      "percentage": 55.4,
+      "impact": "Priority 3"
+    }
+  ],
+  "department_overview": {
+    "total_students": 420,
+    "new_students_month": 12,
+    "faculty_members": 32,
+    "new_faculty": 1,
+    "active_courses": 24,
+    "semester_term": "Odd Semester 2025",
+    "upcoming_examinations": 3,
+    "pending_approvals": 7,
+    "classes_overview": [
+      {
+        "class": "3rd Sem CSE (ICB)",
+        "subject": "Mathematics",
+        "faculty": "Dr. S. Ramesh",
+        "status": "Ongoing"
+      },
+      {
+        "class": "3rd Sem CSE (ICB)",
+        "subject": "Physics",
+        "faculty": "Prof. A. Khan",
+        "status": "Ongoing"
+      },
+      {
+        "class": "5th Sem CSE (ICB)",
+        "subject": "DSA",
+        "faculty": "Dr. L. Priya",
+        "status": "Ongoing"
+      },
+      {
+        "class": "5th Sem CSE (ICB)",
+        "subject": "DBMS",
+        "faculty": "Prof. K. Nanda",
+        "status": "Ongoing"
+      },
+      {
+        "class": "7th Sem CSE (ICB)",
+        "subject": "Cybersecurity",
+        "faculty": "Dr. M. Fazil",
+        "status": "Upcoming"
+      }
+    ],
+    "attendance_analytics": {
+      "overall": 92,
+      "breakdown": [
+        {
+          "name": "Present",
+          "percentage": 92,
+          "color": "#10b981"
+        },
+        {
+          "name": "Absent",
+          "percentage": 5,
+          "color": "#ef4444"
+        },
+        {
+          "name": "On Duty",
+          "percentage": 2,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Leave",
+          "percentage": 1,
+          "color": "#3b82f6"
+        }
+      ]
+    },
+    "student_strength_trend": [
+      {
+        "sem": "Sem 1",
+        "students": 110,
+        "placed": 0
+      },
+      {
+        "sem": "Sem 2",
+        "students": 190,
+        "placed": 0
+      },
+      {
+        "sem": "Sem 3",
+        "students": 210,
+        "placed": 0
+      },
+      {
+        "sem": "Sem 4",
+        "students": 250,
+        "placed": 0
+      },
+      {
+        "sem": "Sem 5",
+        "students": 320,
+        "placed": 0
+      },
+      {
+        "sem": "Sem 6",
+        "students": 360,
+        "placed": 45
+      },
+      {
+        "sem": "Sem 7",
+        "students": 410,
+        "placed": 120
+      },
+      {
+        "sem": "Sem 8",
+        "students": 420,
+        "placed": 210
+      }
+    ],
+    "examination_summary": [
+      {
+        "exam": "Internal Test 1",
+        "date": "02 Oct 2025",
+        "status": "Scheduled"
+      },
+      {
+        "exam": "Internal Test 2",
+        "date": "16 Oct 2025",
+        "status": "Not Scheduled"
+      },
+      {
+        "exam": "Semester Exam",
+        "date": "Nov 2025",
+        "status": "Not Scheduled"
+      }
+    ]
+  },
+  "teacher_overview": {
+    "total_students": 120,
+    "new_enrollments": 2,
+    "classes_today": 4,
+    "classes_completed": 3,
+    "classes_upcoming": 1,
+    "pending_evaluations": 18,
+    "notices_count": 2,
+    "class_metrics": {
+      "classes_conducted": "16/20",
+      "classes_conducted_pct": 80,
+      "attendance_rate": 92,
+      "attendance_delta": "+3% than last week",
+      "average_marks": 8.4,
+      "marks_delta": "+0.6",
+      "total_students": 120,
+      "class_name": "3rd Sem (CSE-ICB)"
+    },
+    "attendance_trend": [
+      {
+        "month": "Aug",
+        "your_class": 55,
+        "dept_avg": 50
+      },
+      {
+        "month": "Sep",
+        "your_class": 80,
+        "dept_avg": 65
+      },
+      {
+        "month": "Oct",
+        "your_class": 82,
+        "dept_avg": 68
+      },
+      {
+        "month": "Nov",
+        "your_class": 88,
+        "dept_avg": 70
+      },
+      {
+        "month": "Dec",
+        "your_class": 89,
+        "dept_avg": 72
+      }
+    ],
+    "upcoming_evaluations": [
+      {
+        "datetime": "02 Oct 2025 10:00 AM - 12:00 PM",
+        "subject": "Mathematics",
+        "type": "Assignment (Internal)"
+      },
+      {
+        "datetime": "05 Oct 2025 09:00 AM - 11:00 AM",
+        "subject": "Physics",
+        "type": "Test"
+      },
+      {
+        "datetime": "08 Oct 2025 01:00 PM - 03:00 PM",
+        "subject": "Programming in C",
+        "type": "Assignment"
+      }
+    ]
+  },
+  "library_resources": [
+    {
+      "id": 1,
+      "title": "Higher Engineering Mathematics",
+      "author": "B.S. Grewal",
+      "isbn": "978-8174091955",
+      "category": "Mathematics",
+      "semester": 1,
+      "available_copies": 8,
+      "rack_no": "Rack M-02",
+      "digital_access_url": "https://library.ksit.edu.in"
+    },
+    {
+      "id": 2,
+      "title": "Programming in ANSI C (8th Edition)",
+      "author": "E. Balagurusamy",
+      "isbn": "978-9353165130",
+      "category": "Computer Science",
+      "semester": 1,
+      "available_copies": 12,
+      "rack_no": "Rack CS-01",
+      "digital_access_url": "https://library.ksit.edu.in"
+    },
+    {
+      "id": 3,
+      "title": "Engineering Physics & Nanotechnology",
+      "author": "Hitendra K. Malik",
+      "isbn": "978-0070671539",
+      "category": "Physics",
+      "semester": 1,
+      "available_copies": 6,
+      "rack_no": "Rack P-04",
+      "digital_access_url": "https://library.ksit.edu.in"
+    },
+    {
+      "id": 4,
+      "title": "Data Structures using C & C++",
+      "author": "Yedidyah Langsam",
+      "isbn": "978-9332549319",
+      "category": "Computer Science",
+      "semester": 3,
+      "available_copies": 10,
+      "rack_no": "Rack CS-05",
+      "digital_access_url": "https://library.ksit.edu.in"
+    }
+  ],
+  "placements": [
+    {
+      "id": 1,
+      "company_name": "Infosys Springboard",
+      "job_title": "Systems Engineer / Specialist Programmer",
+      "role_type": "Full-time",
+      "package_details": "6.5 - 9.5 LPA",
+      "eligibility": "CSE (ICB) 7.0+ CGPA",
+      "deadline": "2025-10-30",
+      "apply_link": "https://careers.infosys.com"
+    },
+    {
+      "id": 2,
+      "company_name": "TCS Digital & Prime",
+      "job_title": "Software Development Engineer",
+      "role_type": "Full-time",
+      "package_details": "7.0 - 11.5 LPA",
+      "eligibility": "All CSE (ICB) Students",
+      "deadline": "2025-11-15",
+      "apply_link": "https://learning.tcsionhub.in"
+    },
+    {
+      "id": 3,
+      "company_name": "Google Cloud Student Track",
+      "job_title": "Cloud Architecture Fellow",
+      "role_type": "Internship",
+      "package_details": "₹35,000 / month",
+      "eligibility": "1st to 3rd Year Students",
+      "deadline": "2025-10-20",
+      "apply_link": "https://cloud.google.com/edu"
+    }
+  ],
+  "community_activities": [
+    {
+      "id": 1,
+      "project_title": "CSE (ICB) Department Integrated Academic and Information Portal",
+      "team_name": "STACK X",
+      "team_members": "D V Manas Srujan (1KS25IC015), Hussain Basha (1KS25IC023), M Pavani Gowda (1KS25IC033), Purvi B V (1KS25IC045)",
+      "mentor": "Prof. R. Sharma & Dr. R. Kumar (HOD)",
+      "status": "In Progress (Phase 2 Live Deployment)",
+      "objective": "Centralize all fragmented notes, syllabus, PYQ papers, attendance tracking, and announcements into a unified department portal for students and faculty.",
+      "presentation_date": "2026-09-29"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Assignment 1 Released",
+      "message": "Prof. R. Sharma posted Assignment 1 for Programming in C due on Oct 04.",
+      "type": "assignment",
+      "is_read": false,
+      "time": "10 mins ago"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "title": "Internal Test 1 Scheduled",
+      "message": "Exam schedule for 1st Year CSE (ICB) has been announced.",
+      "type": "exam",
+      "is_read": false,
+      "time": "2 hours ago"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "title": "New Study Material Uploaded",
+      "message": "Dr. S. Ramesh uploaded Calculus Module 1 Notes to Academic Hub.",
+      "type": "resource",
+      "is_read": false,
+      "time": "Yesterday"
+    }
+  ]
+}

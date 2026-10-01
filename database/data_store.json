@@ -145,6 +145,22 @@
       "attendance_pct": 98,
       "blood_group": "AB+",
       "mentor_name": "Prof. R. Sharma"
+    },
+    {
+      "id": 5,
+      "user_id": 9,
+      "usn": "1KS25IC051",
+      "name": "SHASHWATH",
+      "year": "1st Year",
+      "semester": 3,
+      "section": "A",
+      "department": "CSE (ICB)",
+      "cgpa": 8,
+      "present_days": 0,
+      "total_days": 0,
+      "attendance_pct": 100,
+      "blood_group": "B+",
+      "mentor_name": "Prof. R. Sharma"
     }
   ],
   "teachers": [

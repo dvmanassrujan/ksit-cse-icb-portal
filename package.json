@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
+    "host": "node host.js",
     "tunnel": "node tunnel-cloud.js",
     "tunnel:localtunnel": "node tunnel.js"
   },

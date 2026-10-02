@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "tunnel": "node tunnel-cloud.js",
+    "tunnel:localtunnel": "node tunnel.js"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -26,6 +28,7 @@
     "mysql2": "^3.24.4"
   },
   "devDependencies": {
-    "localtunnel": "^2.0.2"
+    "localtunnel": "^2.0.2",
+    "untun": "^0.2.2"
   }
 }
